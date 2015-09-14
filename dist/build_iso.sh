@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 genisoimage -R                              \
             -b boot/grub/stage2_eltorito    \
@@ -8,5 +8,5 @@ genisoimage -R                              \
             -input-charset utf8             \
             -quiet                          \
             -boot-info-table                \
-            -o ../../bin/os.iso             \
+            -o ../bin/os.iso                \
             iso
